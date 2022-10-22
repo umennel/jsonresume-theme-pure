@@ -1,0 +1,25 @@
+{{#if resume.interests.length}}
+<section id="interests">
+	<h2 class="text-2xl mt-6 pb-1 border-b font-bold">Interests</h2>
+	<div class="mt-2 flex flex-col">
+	{{#each resume.interests}}
+	<div class="flex flex-row pt-2 items-center">
+		{{#if name}}
+		<div class="basis-40">
+			<strong>{{name}}</strong>
+		</div>
+		{{/if}}
+		{{#if keywords.length}}
+		<ul class="flex flex-row flex-wrap gap-2">
+			{{#each keywords}}
+			<li>
+				<span class="px-4 text-sm rounded-full border border-gray-300 bg-gray-100 flex align-center w-max">{{this}}</span>
+  			</li>
+			{{/each}}
+		</ul>
+		{{/if}}
+	</div>
+	{{/each}}
+	</div>
+</section>
+{{/if}}

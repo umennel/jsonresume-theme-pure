@@ -1,0 +1,21 @@
+{{#if resume.references.length}}
+<section id="references">
+	<h2 class="text-2xl mt-6 pb-1 border-b font-bold">References</h2>
+	<ul class="mt-2 text-base">
+		{{#each resume.references}}
+		<li class="mt-2">
+			{{#if reference}}
+			<blockquote>
+				<p>{{reference}}</p>
+			</blockquote>
+			{{/if}}
+			{{#if name}}
+			<div class="text-sm">
+				— {{name}}
+			</div>
+			{{/if}}
+		</li>
+		{{/each}}
+	</ul>
+</section>
+{{/if}}

@@ -1,0 +1,62 @@
+{{#if resume.projects.length}}
+<section id="projects">
+	<h2 class="text-2xl mt-6 pb-1 border-b font-bold">Projects</h2>
+	<ul class="mt-2 text-base">
+        {{#each resume.projects}}
+        <li class="pt-2">
+            <div class="flex flex-row justify-between">
+                <div>
+                    {{#if url}}
+					<a href="{{url}}">
+					{{/if}}
+						<strong>{{name}}</strong>
+					{{#if url}}
+					</a>
+					{{/if}}
+                    <span class="ml-2">
+                        {{#if type}}
+                        {{type}}
+                        {{/if}}
+                        {{#if entity}}
+                        at {{entity}}
+                        {{/if}}
+                    </span>
+                </div>
+                <div>
+                    {{month startDate}} {{year startDate}}
+                    {{#if endDate}}
+                    - {{month endDate}} {{year endDate}}
+                    {{else}}
+                    - Present
+                    {{/if}}
+                </div>
+            </div>
+            <p class="pt-1">
+                {{#each roles}}
+                <em>{{.}}{{#unless @last}}, {{/unless}}</em>
+                {{/each}}
+            </p>
+            {{#if description}}
+            <p class="text-justify">{{description}}</p>
+            {{/if}}
+            {{#if highlights.length}}
+            <ul class="mt-1 ml-1">
+                {{#each highlights}}
+                <li>▸ {{this}}</li>
+                {{/each}}
+            </ul>
+            {{/if}}
+            {{#if keywords.length}}
+            <ul class="flex flex-row flex-wrap gap-2 my-2">
+                {{#each keywords}}
+                <li>
+                    <span class="px-4 text-sm rounded-full border border-gray-300 bg-gray-100 flex align-center w-max">{{.}}</span>
+                </li>
+                {{/each}}
+            </ul>
+            {{/if}}
+        </li>
+        {{/each}}
+	</ul>
+</section>
+{{/if}}

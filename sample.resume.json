@@ -1,0 +1,179 @@
+{
+  "basics": {
+    "name": "Richard Hendriks",
+    "label": "Programmer",
+    "image": "data:image/svg+xml,%3Csvg width='401px' height='401px' enable-background='new 312.809 0 401 401' version='1.1' viewBox='312.809 0 401 401' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform='matrix(1.223 0 0 1.223 -467.5 -843.44)'%3E%3Crect x='601.45' y='653.07' width='401' height='401' fill='%23E4E6E7'/%3E%3Cpath d='m802.38 908.08c-84.515 0-153.52 48.185-157.38 108.62h314.79c-3.87-60.44-72.9-108.62-157.41-108.62z' fill='%23AEB4B7'/%3E%3Cpath d='m881.37 818.86c0 46.746-35.106 84.641-78.41 84.641s-78.41-37.895-78.41-84.641 35.106-84.641 78.41-84.641c43.31 0 78.41 37.9 78.41 84.64z' fill='%23AEB4B7'/%3E%3C/g%3E%3C/svg%3E",
+    "email": "richard.hendriks@piedpiper.com",
+    "phone": "(912) 555-4321",
+    "birthDate": "1979-07-27",
+    "url": "http://piedpiper.com",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "Newell Road",
+      "postalCode": "94303",
+      "city": "Palo Alto",
+      "countryCode": "US",
+      "region": "CA"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "siliconHBO",
+        "url": "https://twitter.com/siliconHBO"
+      },
+      {
+        "network": "Facebook",
+        "username": "SiliconHBO",
+        "url": "https://www.facebook.com/SiliconHBO"
+      },
+      {
+        "network": "Instagram",
+        "username": "siliconhbo",
+        "url": "https://www.instagram.com/siliconhbo/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Pied Piper",
+      "position": "CEO/President",
+      "url": "http://piedpiper.com",
+      "startDate": "2014-04-13",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Hooli",
+      "position": "Software Engineer",
+      "url": "http://www.hooli.xyz/",
+      "startDate": "2013-01-01",
+      "endDate": "2014-04-06",
+      "summary": "Worked on optimizing the backend algorithms for Hooli"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stanford",
+      "area": "Computer Science",
+      "studyType": "B.S",
+      "location": "Palo Alto, CA",
+      "specialization": "Machine Learning",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "GPA 4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard. That is all."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Azure Developer Associate",
+      "issuer": "Microsoft",
+      "date": "2021"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps", "Chrome Extension", "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead", "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

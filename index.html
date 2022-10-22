@@ -2,12 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+  <body class="flex justify-center content-center">
+    <div class="px-4">
+      <header>
+        {{> basics }}
+      </header>
+      <main>
+        <div class="self-center w-full">
+          {{> skills }}
+          {{> work }}
+          {{> education }}
+          {{> certificates }}
+          {{> projects }}
+          {{> volunteer }}
+          {{> awards }}
+          {{> publications }}
+          {{> languages }}
+          {{> interests }}
+          {{> references }}
+        </div>
+      </main>
+    </div>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>

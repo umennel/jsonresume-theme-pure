@@ -1,0 +1,37 @@
+{{#if resume.education.length}}
+<section id="education">
+	<h2 class="text-2xl mt-6 pb-1 border-b font-semibold">Education</h2>
+    <ul class="mt-2">
+		{{#each resume.education}}
+		<li class="pt-2">
+			<div class="flex flex-row justify-between">
+				<div>
+					{{#if url}}
+					<a href="{{url}}">
+					{{/if}}
+						<strong>{{institution}}</strong>
+					{{#if url}}
+					</a>
+					{{/if}}
+				</div>
+				<div>{{year startDate}}{{#if endDate}} - {{year endDate}}{{else}} - Present{{/if}}</div>
+			</div>
+			<p class="text-base"><em>{{studyType}} {{area}}</em></p>
+			{{#if specialization}}
+			<p class="text-base">{{specialization}}</p>
+			{{/if}}
+			{{#if gpa}}
+			<p class="text-base">{{gpa}}</p>
+			{{/if}}
+            {{#if courses.length}}
+            <ul class="mt-1 ml-1">
+                {{#each courses}}
+                <li>▸ {{this}}</li>
+                {{/each}}
+            </ul>
+            {{/if}}
+		</li>
+		{{/each}}
+	</ul>
+</section>
+{{/if}}

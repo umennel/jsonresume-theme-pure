@@ -1,0 +1,49 @@
+{{#if resume.volunteer.length}}
+<section id="volunteer">
+	<h2 class="text-2xl mt-6 pb-1 border-b font-bold">Volunteer</h2>
+	<ul class="mt-2 text-base">
+		{{#each resume.volunteer}}
+		<li class="pt-2 ">
+			<div class="flex flex-row justify-between">
+				<div>
+					{{#if url}}
+					<a href="{{url}}">
+					{{/if}}
+						{{#if organization}}
+						<strong>{{organization}}</strong>
+						{{else}}
+							{{#if url}}
+							{{url}}
+							{{/if}}
+						{{/if}}
+					{{#if url}}
+					</a>
+					{{/if}}
+				</div>
+				<div>
+					{{#if startDate}}
+					{{month startDate}} {{year startDate}}
+					{{/if}}
+					{{#if endDate}}
+					- {{month endDate}} {{year endDate}}
+					{{else}}
+					- Present
+					{{/if}}
+				</div>
+			</div>
+			<p class="py-1"><em>{{position}}</em></p>
+			{{#if summary}}
+			<p class="text-justify">{{summary}}</p>
+			{{/if}}
+			{{#if highlights.length}}
+			<ul class="mt-1 ml-1">
+				{{#each highlights}}
+				<li>▸ {{this}}</li>
+				{{/each}}
+			</ul>
+			{{/if}}
+		</li>
+		{{/each}}
+	</ul>
+</section>
+{{/if}}
