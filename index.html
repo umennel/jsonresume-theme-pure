@@ -6,13 +6,13 @@
     <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
   </head>
-  <body class="flex justify-center content-center">
-    <div class="px-4">
+  <body class="sm:w-2/3 xl:w-1/2 print:w-full mx-auto">
+    <div class="print:px-4">
       <header>
         {{> basics }}
       </header>
       <main>
-        <div class="self-center w-full">
+        <div>
           {{> skills }}
           {{> work }}
           {{> education }}

@@ -7,7 +7,11 @@ module.exports = {
     resolve(__dirname, "./src/**/*.{hbs,html,js}"),
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+          "print": { "raw": "print" },
+      },
+    },
   },
   plugins: [],
 }
