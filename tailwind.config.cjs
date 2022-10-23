@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+const resolve = require("path").resolve;
+
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{hbs,html,js}",
+    resolve(__dirname, "./index.html"),
+    resolve(__dirname, "./src/**/*.{hbs,html,js}"),
   ],
   theme: {
     extend: {},
